@@ -1,0 +1,206 @@
+body{
+font-family: Arial;
+margin:0;
+color:#333;
+}
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+}
+
+header{
+background:#fff;
+padding:20px;
+border-bottom:1px solid #eee;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+height:100px;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:#333;
+font-weight:bold;
+}
+
+.hero{
+background:#f5f5f5;
+text-align:center;
+padding:100px 20px;
+}
+
+.hero h1{
+font-size:42px;
+}
+
+.button{
+background:#4CAF50;
+color:white;
+padding:12px 25px;
+text-decoration:none;
+border-radius:5px;
+}
+
+.services{
+background:#fafafa;
+padding:60px 0;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:30px;
+}
+
+footer{
+background:#222;
+color:white;
+padding:40px;
+margin-top:40px;
+}
+
+.hero-split{
+display:flex;
+align-items:center;
+justify-content:center;
+min-height:500px;
+}
+
+.hero-left{
+width:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#f9f9f9;
+padding:40px;
+}
+
+.hero-left img{
+max-width:80%;
+height:auto;
+}
+
+.hero-right{
+width:50%;
+padding:60px;
+}
+
+.hero-right h1{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.hero-right p{
+font-size:18px;
+margin-bottom:25px;
+}
+
+.top-band{
+background:#ffffff;
+border-bottom:1px solid #eee;
+padding:15px 0;
+}
+
+.header-logo{
+display:flex;
+align-items:center;
+}
+
+.header-logo img{
+height:100px;
+cursor:pointer;
+}
+
+/* Footer Bands */
+
+/* Footer Bands with Colorful Grading */
+
+/* Professional toned footer (Consistent Care style) */
+
+.footer-band{
+  padding: 30px 20px;
+  text-align: center;
+  color: #333; /* dark text for readability */
+  font-size: 16px;
+}
+
+.footer-questions{
+  background: #f8f8f8; /* light neutral grey */
+  color: #222;
+}
+
+.footer-referral{
+  background: #e8e8e8; /* slightly darker neutral grey */
+  color: #222;
+}
+
+.footer-referral .button{
+  background: #444; /* dark call?to?action */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.footer-copyright{
+  background: #dcdcdc; /* medium neutral grey */
+  color: #222;
+}
+
+/* Key Features Section */
+.key-features{
+  padding:60px 20px;
+  background:#f9f9f9; /* subtle background similar to Consistent Care */
+}
+
+.key-features h2{
+  text-align:center;
+  font-size:32px;
+  margin-bottom:20px;
+}
+
+.key-features p{
+  text-align:center;
+  font-size:18px;
+  margin-bottom:40px;
+  max-width:800px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.features-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(220px,1fr));
+  gap:30px;
+}
+
+.feature{
+  background:#fff;
+  padding:25px;
+  border-radius:8px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.1);
+  text-align:center;
+}
+
+.feature h3{
+  font-size:22px;
+  margin-bottom:15px;
+}
+
+.feature p{
+  font-size:16px;
+  color:#555;
+}
